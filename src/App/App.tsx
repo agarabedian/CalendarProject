@@ -9,11 +9,11 @@ import {
     formatTime,
 } from './constants';
 import theme from './theme';
-import TimeButton from './TimeButton';
-import AvailabilityDialog from './AvailabilityDialog';
-import ActionsDialog from './ActionsDialog';
+import TimeButton from '../components/TimeButton';
+import AvailabilityDialog from '../components/AvailabilityDialog';
+import ActionsDialog from '../components/ActionsDialog';
 import { availabilty, availabiltyList } from './types';
-import './App.css';
+import '../css/App.css';
 
 /** List of user availabilty. */
 const availablePeriods: availabiltyList = [];

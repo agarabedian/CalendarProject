@@ -9,8 +9,8 @@ import {
     FormControl,
     InputLabel,
 } from '@mui/material';
-import { formatTime } from './constants';
-import './dialog.css';
+import { formatTime } from '../App/constants';
+import '../css/dialog.css';
 
 const dialogStyle = {
     paddingTop: '4rem',
