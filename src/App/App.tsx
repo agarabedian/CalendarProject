@@ -368,6 +368,7 @@ function App() {
                         className='action-buttons'
                         onClick={() => {
                             console.log(JSON.stringify(availablePeriods));
+                            window.alert('Printed current availability to the browser console.')
                         }}
                         variant='contained'
                         color='error'

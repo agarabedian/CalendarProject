@@ -1,4 +1,4 @@
-# RevBoss React Coding Project
+# React Calendar Project
 
 This project was created by Aram Garabedian using [Create React App](https://github.com/facebook/create-react-app) template and written in TypeScript. The project also utilizes [Material-UI (MUI)](https://mui.com/) for component design.\
 \
