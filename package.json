@@ -8,6 +8,7 @@
       "url": "https://github.com/agarabedian"
     }
   ],
+  "homepage": "https://agarabedian.github.io/CalendarProject",
   "dependencies": {
     "@mui/material": "^5.10.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -25,7 +26,10 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
